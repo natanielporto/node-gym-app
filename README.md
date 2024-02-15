@@ -16,15 +16,15 @@
 - [x] o usuário não pode se cadastrar com um e-mail duplicado
 - [x] o usuário não pode fazer dois checkins no mesmo dia
 - [x] o usuário não pode fazer checkins se não estiver a 100 metros da academia
-- [] o checkin so pode ser validado até 20 minutos após criado
-- [] o checkin so pode ser validado por administradores
-- [] a academia so pode ser cadastrada por administradores
+- [x] o checkin so pode ser validado até 20 minutos após criado
+- [x] o checkin so pode ser validado por administradores
+- [x] a academia so pode ser cadastrada por administradores
 
 ## Requisitos não funcionais - não partem do cliente são técnicos qual banco de dados, qual cache, qual paginação, etc só a gente entende, não o usuário final
 
 - [x] a senha do usuário precisa estar criptografada
 - [x] os dados da aplicação precisam estar persistidos em um banco postgres
 - [x] todas listas de dados precisam estar paginadas com 20 itens por página
-- [] o usuário deve ser identificado por um JWT
+- [x] o usuário deve ser identificado por um JWT
 
 ---
